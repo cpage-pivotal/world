@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/private/tmp/world/obj/Release/net8.0/linux-x64/scopedcss/projectbundle/world.bundle.scp.css",
+      "PackagePath": "staticwebassets/world.bundle.scp.css"
+    },
+    {
+      "Id": "/private/tmp/world/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/private/tmp/world/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/private/tmp/world/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/private/tmp/world/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Release/net8.0/linux-x64/staticwebassets/msbuild.build.world.props",
+      "PackagePath": "build\\world.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/linux-x64/staticwebassets/msbuild.buildMultiTargeting.world.props",
+      "PackagePath": "buildMultiTargeting\\world.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/linux-x64/staticwebassets/msbuild.buildTransitive.world.props",
+      "PackagePath": "buildTransitive\\world.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/linux-x64/staticwebassets/msbuild.world.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

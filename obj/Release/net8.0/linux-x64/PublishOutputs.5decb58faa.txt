@@ -1,0 +1,7 @@
+/tmp/dotnet-publish-output3727975230/world
+/tmp/dotnet-publish-output3727975230/appsettings.Development.json
+/tmp/dotnet-publish-output3727975230/appsettings.json
+/tmp/dotnet-publish-output3727975230/world.dll
+/tmp/dotnet-publish-output3727975230/world.deps.json
+/tmp/dotnet-publish-output3727975230/world.runtimeconfig.json
+/tmp/dotnet-publish-output3727975230/world.pdb

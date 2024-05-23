@@ -1,0 +1,26 @@
+apiVersion: gateway.networking.k8s.io/v1beta1
+kind: HTTPRoute
+metadata:
+  name: world-route
+  annotations:
+    healthcheck.gslb.tanzu.vmware.com/service: world
+    healthcheck.gslb.tanzu.vmware.com/path: /
+    healthcheck.gslb.tanzu.vmware.com/port: "8080"
+spec:
+  parentRefs:
+  - group: gateway.networking.k8s.io
+    kind: Gateway
+    name: default-gateway
+    sectionName: https-world
+  rules:
+  - backendRefs:
+    - group: ""
+      kind: Service
+      name: world
+      port: 8080
+      weight: 1
+    matches:
+    - path:
+        type: PathPrefix
+        value: /
+
